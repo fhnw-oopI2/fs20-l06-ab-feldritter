@@ -16,7 +16,7 @@ public class ApplicationUI extends StackPane {
     }
 
     private void initializeControls() {
-        button = new Button("I love you my dear");
+        button = new Button("Hello World!");
     }
 
 
