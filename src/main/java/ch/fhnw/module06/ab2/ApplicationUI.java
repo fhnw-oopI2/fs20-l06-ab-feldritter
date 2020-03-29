@@ -17,7 +17,6 @@ public class ApplicationUI extends VBox {
     public ApplicationUI() {
         initializeControls();
         layoutControls();
-        setPadding(new Insets(10));
     }
 
     private void layoutControls() {
@@ -32,5 +31,6 @@ public class ApplicationUI extends VBox {
         textfield = new TextField("text field");
         textarea = new TextArea("text area");
         button = new Button("ein Button");
+        setPadding(new Insets(10));
     }
 }
